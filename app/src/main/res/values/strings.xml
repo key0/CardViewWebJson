@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CardViewWebJson</string>
+    <string name="title_main">Main</string>
+    <string name="title_contact">Contact</string>
+    <string name="contact_text">Dozorov Stanislav \n\n
+
+        place     : Russia , Moscow \n
+        email     : dozorov.stas@mail.ru \n
+        telephone : +7926 2777547 \n
+        ( tap on text to copy telephone in clip )
+    </string>
+
+    <string name="cv1_item_text">IP-Address</string>
+    <string name="cv2_item_text">Date and Time</string>
+    <string name="cv3_item_text">Echo JSON</string>
+    <string name="cv4_item_text">Validation</string>
+    <string name="cv5_item_text">Headers</string>
+
+</resources>

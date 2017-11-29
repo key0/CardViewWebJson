@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="cv1_background">#71C3DE</color>
+    <color name="cv2_background">#FFC3DE</color>
+    <color name="cv3_background">#FFEEDE</color>
+    <color name="cv4_background">#CCC3DE</color>
+    <color name="cv5_background">#1FC01E</color>
+
+</resources>

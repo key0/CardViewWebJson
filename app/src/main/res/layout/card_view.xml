@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+    xmlns:app="http://schemas.android.com/tools"
+    <!---->
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:paddingBottom="@dimen/activity_vertical_margin"
+                      android:paddingTop="@dimen/activity_vertical_margin"
+                      android:paddingLeft="@dimen/activity_horizontal_margin"
+                      android:paddingRight="@dimen/activity_horizontal_margin"
+            >
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="100dp"
+                card_view:cardBackgroundColor="@color/cv1_background"
+                card_view:cardCornerRadius="16dp">
+
+
+                <ImageView
+                    android:layout_width= "50dp"
+                    android:layout_height= "50dp"
+                    android:src ="@drawable/global"
+                    android:id="@+id/cv1_item_image"
+                    />
+                <TextView
+                    android:id="@+id/cv1_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/cv1_item_text"
+                    />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="100dp"
+                card_view:cardBackgroundColor="@color/cv2_background"
+                card_view:cardCornerRadius="16dp">
+
+                <ImageView
+                    android:layout_width= "50dp"
+                    android:layout_height= "50dp"
+                    android:src ="@drawable/calendar"
+                    android:id="@+id/cv2_item_image"
+                    />
+
+                <TextView
+                    android:id="@+id/cv2_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/cv2_item_text" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="100dp"
+                card_view:cardBackgroundColor="@color/cv3_background"
+                card_view:cardCornerRadius="16dp">
+
+                <ImageView
+                    android:layout_width= "50dp"
+                    android:layout_height= "50dp"
+                    android:src ="@drawable/upload"
+                    android:id="@+id/cv3_item_image"
+                    />
+                <TextView
+                    android:id="@+id/cv3_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/cv3_item_text" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="100dp"
+                card_view:cardBackgroundColor="@color/cv4_background"
+                card_view:cardCornerRadius="16dp">
+
+                <ImageView
+                    android:layout_width= "50dp"
+                    android:layout_height= "50dp"
+                    android:src ="@drawable/booklet"
+                    android:id="@+id/cv4_item_image"
+                    />
+                <TextView
+                    android:id="@+id/cv4_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/cv4_item_text" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="100dp"
+                card_view:cardBackgroundColor="@color/cv5_background"
+                card_view:cardCornerRadius="16dp">
+
+                <ImageView
+                    android:layout_width= "50dp"
+                    android:layout_height= "50dp"
+                    android:src ="@drawable/browser"
+                    android:id="@+id/cv5_item_image"
+                    />
+
+                <TextView
+                    android:id="@+id/cv5_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/cv5_item_text"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
