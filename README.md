@@ -1,4 +1,4 @@
-# CardViewWebJson
+# CardViewWebJson ( app-debug.apk )
 
 Пример отражает использование
 - Material Design                 ( android.support.v7.widget.CardView )
