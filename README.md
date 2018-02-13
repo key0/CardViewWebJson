@@ -1,5 +1,5 @@
 # CardViewWebJson ( app-debug.apk )
-![](https://github.com/key0/CardViewWebJson/Screenshot_2018-02-13-14-39-55.png)
+![](https://github.com/key0/CardViewWebJson/blob/master/Screenshot.png)
 
 Пример отражает использование
 - Material Design                 ( android.support.v7.widget.CardView )
